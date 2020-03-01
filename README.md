@@ -9,6 +9,9 @@ The project is completed as part of the Insight Data Engineering progrom (Los An
 
 News tone is defined as a quantitative measurement ranging between -10 to 10 on how people feel about the news event. Research has shown that news tone is correlated with the stock price which implies that the media sentiment is an important predictor of stock returns. Nevertheless, there are tons of news update every day. It is hard for investors to read every single news in order to understand the public attitude.  Therefore, to help the investors quickly gain insight on the global news tone, this project provides users with an interactive dashboard to quickly access the sentiment surrounding this topic from various news source. This grants the users an overview of the global news tone evolution. 
 
+![](https://github.com/tracy15932/tone-gauge/blob/master/images/event_map.png "event-map")
+![](https://github.com/tracy15932/tone-gauge/blob/master/images/distribution.png "distribution")
+
 ## Project Structure 
 
 ```
@@ -35,7 +38,7 @@ News tone is defined as a quantitative measurement ranging between -10 to 10 on 
 The Global Database of Events, Languages, and Tone (GDELT 2.0) database collects global news reports, and identifies the actors, locations, themes, organizations, sources, events invloved. It conisits with three tables: _Mention, Gkg, Event_. The database saves ~1.5TB data per year, and it updates every 15 minutes. 
 
 ## Architecture
-
+![](https://github.com/tracy15932/tone-gauge/blob/master/images/pipline.png "pipline")
 
 ## Engineering challenges
 
