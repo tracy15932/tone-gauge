@@ -1,0 +1,1 @@
+SELECT * FROM gdelt_db.agg;
