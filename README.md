@@ -66,6 +66,14 @@ spark-submit \
 
 In order to configure and manipulate the large dataset, I decided to distribute the data processing jobs into two stages: data cleaning and data aggregation. The trade-off is that the run-time may take longer. However, distribution of job stages will enhance the stability and organization. 
 
+## Running Tone Gauge
+
+All raw data is extracted from S3 datasource and is cleaned to perform computation on tone analysis. Then the aggregation results are saved to MySQL database. Then, connect MySQL to Tableau to visualize the statistics.
+
+Run the following script on spark cluster to start Tone Gauge
+```
+./run.sh
+```
 
 
 
